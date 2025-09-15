@@ -105,11 +105,14 @@ chunk.
 
 group20 <- "The quick brown fox jumped over the lazy dog"
 
-char_list <- strsplit(group20, "")
+char_list <- strsplit(group20, "")  # splits into a list of individual characters
 
-chars <- unlist(char_list)
+chars <- unlist(char_list)  # unlists char_list into individual character vecotrs
 
 for (char in chars) {
+  if (char == "r") {
+    print("RRR")
+  }
   print(char)
 }
 ```
