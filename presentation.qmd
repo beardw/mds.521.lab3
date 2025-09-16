@@ -1,0 +1,74 @@
+---
+title: "presentation"
+format: revealjs
+editor: visual
+---
+
+# Welcome to Group 20's Presentation
+
+## Who are we?
+:::: {.columns}
+
+::: {.column width="50%"}
+- Joel
+- Hector
+:::
+
+::: {.column width="50%"}
+- Selene
+- Wes
+:::
+
+::::
+
+## Grocery Math
+Let's begin with the basics and print our our result.
+If Bob needs ten apples and they cost $2 each. How much money should Bob take to the grocery store?
+
+```{r}
+num_apples <- 10
+cost_apples <- 2
+total <- num_apples * cost_apples
+
+print(paste("Bob needs to take", total, "dollars with him."))
+```
+
+## Time to Exercise!
+It's squats day - let's see how many reps you'll be doing!
+```{r}
+exercise <- "squats"
+
+if (exercise == "lunges") {
+  reps <- 10
+} else if (exercise == "pushups") {
+  reps <- 15
+} else if (exercise == "squats") {
+  reps <- 25
+} 
+
+if (is.numeric(reps)) {
+  print(paste("You must to do", reps, "reps of", exercise))
+} else {
+  print("You're lucky! Take a break!")
+}
+```
+
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
