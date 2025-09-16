@@ -159,6 +159,8 @@ some_operation
 
 ```
 
+**eval = FALSE** is preventing the lines from being executed at all at the time of knitting.
+
 #### Multiple code chunk options
 
 To have multiple code chunk options you separate them by a comma. For
