@@ -1,12 +1,14 @@
 ---
 title: "Lab 3 - Introduction to RStudio and R Markdown. Presentations"
-author: Hector, Joel, Selene, Wesley
-date: September 21st, 2025
+author: "Hector, Joel, Selene, Wesley"
+date: "September 21st, 2025"
 output:
   html_document:
     toc: true
-editor_options: 
-  markdown: 
+  pdf_document:
+    toc: true
+editor_options:
+  markdown:
     wrap: 72
 ---
 
@@ -148,7 +150,7 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option. Write out in your
 own words what the code chunk option is doing.
 
-```{r, eval = FALSE}
+```{r chunky, eval = FALSE}
 some_variable <- 3
 other_variable <- 4
 some_operation <- (some_variable+other_variable)
@@ -173,12 +175,29 @@ least one must be different to the ones mentioned above. Write in your
 own words what each code chunk option is doing.
 
 YOUR ANSWER GOES HERE
-``` {r chunky2, echo = FALSE, }
+``` {r chunky2, results = 'hide', message = FALSE}
+a_vector <- c(1, 2, 3)
+a_vector * 2
 
-
-
+print("this message will not show up") 
 
 ```
+**results = 'hide'** makes it so that the code hides the results from the execution of the chunk. 
+
+**message = FALSE** hides the messages produced, for instance, from prints and warnings.
+
+This is what happens if we do not include those parameters
+
+``` {r not_chunky2}
+
+
+print("this one will show up")
+a_vector * 3
+
+```
+
+
+
 
 ### YAML Header and document output options
 
@@ -351,5 +370,5 @@ before exporting!**
 
 ```{r}
 # Save your notebook first, then run this cell to export your submission.
-ottr::export("lab3.Rmd", pdf = TRUE)
+## ottr::export("lab3.Rmd", pdf = TRUE)
 ```
