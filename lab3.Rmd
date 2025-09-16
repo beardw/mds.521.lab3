@@ -101,20 +101,11 @@ R code (it does not need to be complicated, but it should have an
 output). Ensure that you can render/knit the document after you add that
 chunk.
 
-```{r}
+```{r quirk forx}
+quick_fox <- "The quick brown fox jumped over the lazy dog"
+quirk_forx <- gsub("r", "{R}", quick_fox)
+print(quirk_forx)
 
-group20 <- "The quick brown fox jumped over the lazy dog"
-
-char_list <- strsplit(group20, "")  # splits into a list of individual characters
-
-chars <- unlist(char_list)  # unlists char_list into individual character vecotrs
-
-for (char in chars) {
-  if (char == "r") {
-    print("RRR")
-  }
-  print(char)
-}
 ```
 
 #### Question 3
@@ -126,7 +117,25 @@ Try using the pop-up-like menu to navigate between the named code chunks
 Don't forget to knit/render the document after you make this change to
 ensure everything is still working.
 
-```{r}
+```{r eh bee sea}
+grades <- c("A", "B", "C", "D")
+graded <- grades
+
+for (i in seq_along(graded)) {
+  if (graded[i] == "A") {
+    graded[i] <- "Eh"
+  } else if (graded[i] == "B") {
+    graded[i] <- "Bee"
+  } else if (graded[i] == "C") {
+    graded[i] <- "Sea"
+  } else if (graded[i] == "D") {
+    graded[i] <- "Deleted"
+  }
+}
+
+# print each on a new line
+for (g in graded) {
+  cat(g, "\n")}
 
 ```
 
@@ -137,7 +146,11 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option. Write out in your
 own words what the code chunk option is doing.
 
-YOUR ANSWER GOES HERE
+```{r chunky}
+
+
+
+```
 
 #### Multiple code chunk options
 
