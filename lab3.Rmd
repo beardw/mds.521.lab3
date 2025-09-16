@@ -148,9 +148,12 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option. Write out in your
 own words what the code chunk option is doing.
 
-```{r chunky}
-
-
+```{r, eval = FALSE}
+some_variable <- 3
+other_variable <- 4
+some_operation <- (some_variable+other_variable)
+some_operation <- 5
+some_operation
 
 ```
 
@@ -170,6 +173,12 @@ least one must be different to the ones mentioned above. Write in your
 own words what each code chunk option is doing.
 
 YOUR ANSWER GOES HERE
+``` {r chunky2, echo = FALSE, }
+
+
+
+
+```
 
 ### YAML Header and document output options
 
