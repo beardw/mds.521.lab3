@@ -281,7 +281,9 @@ knit/render the document. Note the different output. Add and commit that
 rendered both the `.html` and `.pdf` files to the GitHub repository for
 this lab and paste the two links below this question.
 
-YOUR ANSWER GOES HERE
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.html
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.pdf
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.Rmd
 
 #### Question 8
 
@@ -298,7 +300,8 @@ rubric={mechanics:6}
     repository for this homework. Paste a link to these files as your
     answer below.
 
-YOUR ANSWER GOES HERE
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.Rmd
+https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.html
 
 #### Question 9 (Optional)
 
