@@ -7,25 +7,24 @@ editor: visual
 # Welcome to Group 20's Presentation
 
 ## Who are we?
-:::: {.columns}
 
+::::: columns
 ::: {.column width="50%"}
-- Joel
-- Hector
+-   Joel
+-   Hector
 :::
 
 ::: {.column width="50%"}
-- Selene
-- Wes
+-   Selene
+-   Wes
 :::
-
-::::
+:::::
 
 ## Grocery Math
-Let's begin with the basics and print our our result.
-If Bob needs ten apples and they cost $2 each. How much money should Bob take to the grocery store?
 
-```{r}
+Let's begin with the basics and print our our result. If Bob needs ten apples and they cost \$2 each. How much money should Bob take to the grocery store?
+
+```{r echo=TRUE}
 num_apples <- 10
 cost_apples <- 2
 total <- num_apples * cost_apples
@@ -34,8 +33,10 @@ print(paste("Bob needs to take", total, "dollars with him."))
 ```
 
 ## Time to Exercise!
+
 It's squats day - let's see how many reps you'll be doing!
-```{r}
+
+```{r echo=TRUE}
 exercise <- "squats"
 
 if (exercise == "lunges") {
@@ -54,13 +55,12 @@ if (is.numeric(reps)) {
 ```
 
 # How to do School
-1. Eat
-2. Study
-3. Sleep
-4. Repeat
+
+1.  Eat
+2.  Study
+3.  Sleep
+4.  Repeat
 
 # Keep on Trying
-A person who never made a mistake never tried anything new.
-By: Albert Einstein
 
-
+A person who never made a mistake never tried anything new. By: Albert Einstein
