@@ -3,6 +3,7 @@ title: "Group 20's Presentation"
 format: 
   revealjs:
     embed-resources: true
+    theme: moon
 editor: visual
 ---
 
@@ -56,7 +57,8 @@ if (is.numeric(reps)) {
 }
 ```
 
-# School Tips
+## School Tips
+
 ::: {.incremental}
 1.  Eat
 2.  Study
@@ -64,8 +66,14 @@ if (is.numeric(reps)) {
 4.  Repeat
 :::
 
-# Keep on Trying
+## Keep on Trying
 
+::: {.fragment}
 A person who never made a mistake never tried anything new. 
+:::
 
+::: {.fragment .fade-up}
 By: Albert Einstein
+:::
+
+# The End
