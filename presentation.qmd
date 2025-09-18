@@ -56,13 +56,16 @@ if (is.numeric(reps)) {
 }
 ```
 
-# How to do School
-
+# School Tips
+::: {.incremental}
 1.  Eat
 2.  Study
 3.  Sleep
 4.  Repeat
+:::
 
 # Keep on Trying
 
-A person who never made a mistake never tried anything new. By: Albert Einstein
+A person who never made a mistake never tried anything new. 
+
+By: Albert Einstein
