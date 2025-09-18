@@ -1,12 +1,12 @@
 ---
-title: "presentation"
+title: "Group 20's Presentation"
 format: 
   revealjs:
     embed-resources: true
 editor: visual
 ---
 
-# Welcome to Group 20's Presentation
+# The Group
 
 ## Who are we?
 
