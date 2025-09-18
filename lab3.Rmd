@@ -250,7 +250,10 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
-author: Hector, Joel, Selene, Wesley date: September 21st, 2025
+```         
+"author: Hector, Joel, Selene, Wesley"
+"date: September 21st, 2025"
+```
 
 ### Creating R Markdown documents
 
