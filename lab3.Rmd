@@ -320,7 +320,14 @@ rubric={mechanics:1,reasoning:1}
     GitHub.ubc.ca in your homework repo? What do you see? How is it
     rendered?
 
-YOUR ANSWER GOES HERE
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_9.md>
+
+In the preview it is rendered as an R markdown environment. So it
+carries the order as the visual .Rmd documents are displayed. The code
+part looks like the source .Rmd file but with more order, not as
+detailed either. We can see that our headers are based on the number of
+\# used. Our code is now easily copy-able. And code that generates plots
+and images is run and the results are rendered to the page.
 
 #### Question 10
 
