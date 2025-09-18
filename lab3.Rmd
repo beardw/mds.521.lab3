@@ -66,7 +66,7 @@ instructions:
     this cell (it should look something like this
     <https://github.ubc.ca/MDS-2022-23/DSCI_521_labX_yourcwl>).
 
-YOUR LAB GITHUB REPO LINK GOES HERE
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20>
 
 ## Editing R Markdown documents
 
@@ -159,7 +159,8 @@ some_operation
 
 ```
 
-**eval = FALSE** is preventing the lines from being executed at all at the time of knitting.
+**eval = FALSE** is preventing the lines from being executed at all at
+the time of knitting.
 
 #### Multiple code chunk options
 
@@ -177,29 +178,30 @@ least one must be different to the ones mentioned above. Write in your
 own words what each code chunk option is doing.
 
 YOUR ANSWER GOES HERE
-``` {r chunky2, results = 'hide', message = FALSE}
+
+```{r chunky2, results = 'hide', message = FALSE}
 a_vector <- c(1, 2, 3)
 a_vector * 2
 
 print("this message will not show up") 
 
 ```
-**results = 'hide'** makes it so that the code hides the results from the execution of the chunk. 
 
-**message = FALSE** hides the messages produced, for instance, from prints and warnings.
+**results = 'hide'** makes it so that the code hides the results from
+the execution of the chunk.
+
+**message = FALSE** hides the messages produced, for instance, from
+prints and warnings.
 
 This is what happens if we do not include those parameters
 
-``` {r not_chunky2}
+```{r not_chunky2}
 
 
 print("this one will show up")
 a_vector * 3
 
 ```
-
-
-
 
 ### YAML Header and document output options
 
@@ -248,8 +250,7 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
-author: Hector, Joel, Selene, Wesley
-date: September 21st, 2025
+author: Hector, Joel, Selene, Wesley date: September 21st, 2025
 
 ### Creating R Markdown documents
 
@@ -283,9 +284,9 @@ knit/render the document. Note the different output. Add and commit that
 rendered both the `.html` and `.pdf` files to the GitHub repository for
 this lab and paste the two links below this question.
 
-https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.html
-https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.pdf
-https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.Rmd
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.html>
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.pdf>
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_7.Rmd>
 
 #### Question 8
 
@@ -302,8 +303,8 @@ rubric={mechanics:6}
     repository for this homework. Paste a link to these files as your
     answer below.
 
-https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.Rmd
-https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.html
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.Rmd>
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group20/blob/master/question_8.html>
 
 #### Question 9 (Optional)
 
