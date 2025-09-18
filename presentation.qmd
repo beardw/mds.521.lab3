@@ -59,7 +59,7 @@ if (is.numeric(reps)) {
 
 ## School Tips
 
-::: {.incremental}
+::: incremental
 1.  Eat
 2.  Study
 3.  Sleep
@@ -68,8 +68,8 @@ if (is.numeric(reps)) {
 
 ## Keep on Trying
 
-::: {.fragment}
-A person who never made a mistake never tried anything new. 
+::: fragment
+A person who never made a mistake never tried anything new.
 :::
 
 ::: {.fragment .fade-up}
